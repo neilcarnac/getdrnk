@@ -1,0 +1,111 @@
+#navbar{
+    position: absolute;
+    width: 1440px;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+color: #FFFFFF;
+    
+    background: #000000;
+}
+#marqueebox{
+    position: absolute;
+    width: 292px;
+    height: 48px;
+    left: 43px;
+    top: 25px;
+    color: white;
+    font-size: 13px;
+
+}
+.mack{
+    color: white;
+}
+.contain{
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 35px;
+top: 8px;
+transition: 200ms;
+}
+.contain:hover{
+    cursor: pointer;
+    color: #FFAA00;
+}
+
+.open{
+    position: absolute;
+width: 6px;
+height: 18px;
+left: 30px;
+top: -7px;
+
+
+color: #FFFFFF;
+}
+
+.shut{
+    position: absolute;
+width: 16px;
+height: 18px;
+left: 243px;
+top: -7px;
+
+
+}
+
+.timer{
+    position: absolute;
+width: 300;
+height: 48px;
+left: 677px;
+top: 25px;
+
+}
+
+.time{
+position: absolute;
+width: 180px;
+height: 15px;
+left: 0;
+top: 25;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #FFFFFF;
+transition: 400ms;
+}
+
+.time:hover{
+    cursor: pointer;
+    color: #FFAA00;
+}
+
+.ordernow{
+position: absolute;
+width: 214px;
+height: 48px;
+left: 1180px;
+top: 25px;
+background-color: #000000;
+transition: 1000ms;
+border-radius: 40px;
+border: none;
+color: white;
+
+}
+
+.ordernow:hover
+{
+    cursor: pointer;
+    background-color: #FFAA00;
+   
+}
