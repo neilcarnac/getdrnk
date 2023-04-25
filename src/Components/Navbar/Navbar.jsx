@@ -19,7 +19,7 @@ const Navbar = () => {
             variant="button"
             color="textPrimary"
             component={RouterLink}
-            to="/"
+            to="/Home"
           
           >   
         {/* <p className="time">Next drop: 01D : 02H: 42M:42S</p> */}

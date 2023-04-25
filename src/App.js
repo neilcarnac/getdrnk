@@ -1,10 +1,5 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import LogoAnimation from './Components/Navbar/LogoAnimation/LogoAnimation';
-import FrontPage from './Components/Navbar/FrontPage/FrontPage';
-import Fleshblend from './Components/Navbar/Freshblend/Fleshblend';
-import Collection from './Components/Navbar/Collection/Collection';
-import Footer from './Components/Footer/Footer';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import OurCollection from './Pages/OurCollection';
 import Home from './Pages/Home';
@@ -18,7 +13,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/OurCollection" element={<OurCollection />} />
 
         </Routes>
