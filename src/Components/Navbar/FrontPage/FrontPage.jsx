@@ -6,7 +6,7 @@ const FrontPage = () => {
         <div className="backyard">
         <center>
         <div className="imag">
-        <img className='sizeimage' src="drnkd.svg" alt="" />
+        <img className='sizeimage' src="drnnklogo.png" alt="" />
         </div>
         </center>
         <img src="Vectorbg.png" className='bgblur' alt="" />

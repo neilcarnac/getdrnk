@@ -1,0 +1,21 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 1000px;
+    height: 1000px;
+    background-image: url('/Users/admin/Desktop/drnkXlastcrumb/my-drnk/public/droplet.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background 2s ease-in-out;
+  }
+  
+  .droplet {
+    background-image: url('/Users/admin/Desktop/drnkXlastcrumb/my-drnk/public/drnnklogo.png');
+}
+  

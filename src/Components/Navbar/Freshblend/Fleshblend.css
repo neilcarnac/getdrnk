@@ -23,7 +23,7 @@ line-height: 43px;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+/* color: #FFFFFF; */
 
 }
 
@@ -191,17 +191,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 40px;
 }
 
-/* .box{
-    backdrop-filter: blur(20px);
-    background-color: var(--color-grey-50,hsla(0,0%,53%,.5));
-    border-radius: 2rem;
-    height: 100px;
-    margin: 500px;
-    color: var(--color-white,#fff);
-    padding: 2.5rem 2rem 2rem;
-    pointer-events: auto;
-    width: 22rem;
-} */
 
 .picha{
     position: absolute;
@@ -248,7 +237,7 @@ color: #FFFFFF;
 
 .line{
     position: absolute;
-width: 1440px;
+width: 1437px;
 height: 0px;
 left: 0px;
 top: 1150px;

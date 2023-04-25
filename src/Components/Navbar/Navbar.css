@@ -70,9 +70,9 @@ top: 25px;
 
 .time{
 position: absolute;
-width: 180px;
+width: 380px;
 height: 15px;
-left: 0;
+left: -10px;
 top: 25;
 font-family: 'Montserrat';
 font-style: normal;
@@ -100,7 +100,6 @@ transition: 1000ms;
 border-radius: 40px;
 border: none;
 color: white;
-
 }
 
 .ordernow:hover

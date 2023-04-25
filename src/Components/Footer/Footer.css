@@ -1,0 +1,198 @@
+.footer {
+
+    position: absolute;
+    width: 1440px;
+    height: 423px;
+    left: 0px;
+    top: 3400px;
+    background: #000000;
+}
+
+.mail {
+    position: absolute;
+    width: 466px;
+    height: 30px;
+    left: 782px;
+    top: 7px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.outerrect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 559px;
+    height: 61px;
+    left: 782px;
+    top: 64px;
+
+    border: 6px solid #FFFFFF;
+}
+
+.innerrect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 123px;
+    height: 58px;
+    left: 430px;
+    top: -5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    border: none;
+    background: #FFFFFF;
+    border: 6px solid #FFFFFF;
+    transition: 300ms;
+}
+.innerrect:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+.textbo {
+
+    position: absolute;
+    border: none;
+    width: 78%;
+    height: 100%;
+    left: -1px;
+    top: -1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: white;
+    background-color: #000000;
+    padding-left: 13px;
+}
+
+.instagram{
+    position: absolute;
+width: 135px;
+height: 30px;
+left: 426px;
+top: 158px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.02em;
+transition: 400ms;
+
+color: #FFFFFF;
+}
+.instagram:hover{
+    color: goldenrod;
+}
+
+.Linkedn{
+    position: absolute;
+width: 107px;
+height: 30px;
+left: 426px;
+top: 208px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.02em;
+transition: 400ms;
+
+color: #FFFFFF;
+}
+.Linkedn:hover{
+    color: goldenrod;
+
+}
+
+.Pinterest{
+    position: absolute;
+width: 120px;
+height: 30px;
+top: 258px;
+left: 426px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.02em;
+transition: 400ms;
+color: #FFFFFF;
+}
+.Pinterest:hover{
+    color: goldenrod;
+
+}
+
+.navigations{
+    position: absolute;
+width: 281px;
+height: 131px;
+left: 68px;
+top: 224px;
+
+}
+.HomeButtonNavigation{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 31px;
+    top: 24px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    transition: 200ms;
+    color: #FFFFFF;   
+}
+.HomeButtonNavigation:hover{
+    color: goldenrod;
+}
+
+.OurCollectionNavigation{
+
+position: absolute;
+width: 189px;
+height: 30px;
+left: 31px;
+top: 74px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.02em;
+transition: 200ms;
+
+color: #FFFFFF;
+}
+
+.OurCollectionNavigation:hover{
+    color: goldenrod;
+
+}

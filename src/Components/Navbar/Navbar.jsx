@@ -1,5 +1,8 @@
 import React from 'react'
 import './Navbar.css';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Timer from './Countdown/Timer';
 const Navbar = () => {
   return (
     <>
@@ -12,11 +15,28 @@ const Navbar = () => {
         </div>
     </div>
     <div className="timer">
-        <p className="time">Next drop: 01D : 02H: 42M:42S</p>
+    <Link
+            variant="button"
+            color="textPrimary"
+            component={RouterLink}
+            to="/"
+          
+          >   
+        {/* <p className="time">Next drop: 01D : 02H: 42M:42S</p> */}
+        <Timer />
+          </Link>
     </div>
-    <button className='ordernow'>
-    Order Now
-    </button>
+    <Link
+            variant="button"
+            color="textPrimary"
+            component={RouterLink}
+            to="/OurCollection"
+          
+          >   <button className='ordernow'>
+          Order Now
+          </button>
+          </Link>
+ 
 </div>
     </>
   )
