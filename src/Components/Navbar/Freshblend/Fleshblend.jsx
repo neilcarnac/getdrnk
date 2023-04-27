@@ -40,7 +40,7 @@ const Fleshblend = () => {
     return (
         <>
             <div className="container">
-                <h4 className="freshly" >A FRESHLY BLENDED GUILT-FREE EXPERIENCE</h4>
+                <h4 className="freshly" style={{color: 'white'}} >A FRESHLY BLENDED GUILT-FREE EXPERIENCE</h4>
                 <img src="drnkkk.jpg" className='drnkpic' alt="" />
                 <div className="three">
                     <div className="boxone">
