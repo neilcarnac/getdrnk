@@ -19,7 +19,7 @@ const Footer = () => {
             variant="button"
             color="textPrimary"
             component={RouterLink}
-            to="/Home"
+            to="/"
             className='HomeButtonNavigation'
           >Home
           </Link>
